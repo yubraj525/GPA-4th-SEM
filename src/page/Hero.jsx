@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../assets/Button'
+import { Link } from 'react-router'
 
 const Hero = () => {
   return (
@@ -7,9 +8,10 @@ const Hero = () => {
    <section>
     <h1>Hero Section</h1>
     <p>This is the hero section of the webpage.</p>
+
   
  
-  <Button TEXT="Click Me"/>
+  <Button TEXT="click Me"/>
    </section>
    
    </>
